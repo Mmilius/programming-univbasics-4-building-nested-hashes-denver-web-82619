@@ -7,7 +7,7 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
- new_hash = {:railroads => {:rent_in_dollars => 4}}
+ new_hash = {:railroads => {:rent_in_dollars => {:one, :two, :three, :four}}}
 end
 
 def monopoly_with_fourth_tier
